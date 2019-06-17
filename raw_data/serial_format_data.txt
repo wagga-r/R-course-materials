@@ -1,0 +1,8 @@
+Data in 'serial' read format
+(rather then 'parallel' as used in a spreadsheet or a table).
+Each variable contains 6 observations, separated by spaces
+89 75 98 59 59 66
+12 44 21 40 31 41
+193 189 196 207 168 167
+blue blue blue red red red
+Ends
