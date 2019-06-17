@@ -2,7 +2,7 @@
 Several previous face-to-face and hands-on beginners' learning courses for R have been held at CSU (Graham Centre, Charles Sturt University, Wagga Wagga NSW Australia) and NSW DPI over recent years. The resources used as part of those courses are made available here for your use. In addition, the local R-users' group ("cRow" or "Wagga-R") holds monthly meetings where new features in R and RStudio are discussed; the resources from those meetings will also appear here.
 
 ## 1. Script files
-The R script files can be run using R to demonstrate the various features of the R langauge. We recommend running these under a project in the RStudio desktop graphical-user-interface software. RStudio is free for personal use and runs on most hardware (PC, Mac, Unix, Linux).
+The R script files can be run using R to demonstrate the various features of the R language. We recommend running these under a project in the RStudio desktop graphical-user-interface software. RStudio is free for personal use and runs on most hardware (PC, Mac, Unix, Linux).
 www.rstudio.com
 
 ## 2. Data files
