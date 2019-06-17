@@ -1,0 +1,64 @@
+---
+title: "My First Rmarkdown Document"
+author: "David Luckett"
+date: "April 2019"
+output: word_document
+---
+
+# R course at CSU, April 2019
+# David Luckett, djluckett@gmail.com, 0408 750 703
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+aa <- rep(c(2,3,4), each=2, times=3)
+bb <- seq(from=5, to=90, by=5)
+cc <- LETTERS[1:18]
+
+my.df <- data.frame(aa,bb,cc)
+
+library(knitr)
+
+kable(my.df)
+```
+
+```{r}
+data(mtcars)
+dt <- mtcars[1:5, 1:6]
+head(dt)
+
+kable(dt, align='r', caption="A Nice Table")
+```
+
+***
+Check out some extra detail on Rmarkdown here:
+https://rmarkdown.rstudio.com/
+
+and here:
+https://holtzy.github.io/Pimp-my-rmd/
+
+***
+
