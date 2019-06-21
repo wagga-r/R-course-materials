@@ -2,9 +2,9 @@ This subdirectory contains various R script files to run in RStudio (or RGUI, RC
 
 To progress along the R learning path, we suggest you work through these script files in the following order (from simple to more complex):
 
-babynames.R
-hello_world.R
-first_script.R
+## 1.  babynames.R
+## 2.  hello_world.R
+## 3.  first_script.R
 Anscombes_quartet.R
 reading_data_files.R
 fixed_format_data_read.R
